@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "965476473190",
+    "firebase_url": "https://aplikasicatatankuliah-a2bec-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aplikasicatatankuliah-a2bec",
+    "storage_bucket": "aplikasicatatankuliah-a2bec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965476473190:android:b07ac241789f98a16ed0a7",
+        "android_client_info": {
+          "package_name": "com.example.aplikasicatatankuliah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXYw9PDBzymBO24aUhBIBvExcdSL6h8AQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
