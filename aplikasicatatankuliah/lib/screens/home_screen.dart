@@ -4,6 +4,7 @@ import '../models/note.dart';
 import '../services/database_service.dart';
 import 'add_note_screen.dart';
 import 'courses_screen.dart';
+import '../main.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -53,6 +54,17 @@ class _HomeScreenState extends State<HomeScreen> {
         foregroundColor: Colors.white,
         title: Text('Catatan Kuliah'),
         actions: [
+          IconButton(
+            icon: Icon(
+              MyApp.of(context)?.isDark == true
+                  ? Icons.light_mode
+                  : Icons.dark_mode,
+            ),
+            tooltip: 'Ganti Tema',
+            onPressed: () {
+              MyApp.of(context)?.toggleTheme();
+            },
+          ),
           IconButton(
             icon: Icon(Icons.menu_book),
             tooltip: 'Mata Kuliah',
